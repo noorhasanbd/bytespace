@@ -91,11 +91,7 @@ export default function Navbar() {
 
           <Link href="/" className="ml-2 shrink-0">
             <Image
-              src={
-                isHome
-                  ? "/logos/Header_Logo_White.png"
-                  : "/logos/Header_Logo.png"
-              }
+              src="/logos/Header_Logo.png"
               alt="YourBrand"
               width={170}
               height={32}

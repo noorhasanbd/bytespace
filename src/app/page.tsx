@@ -4,6 +4,7 @@ import Explore from "@/components/homepage/Explore";
 import Features from "@/components/homepage/Feature";
 import Hero from "@/components/homepage/Hero";
 import Partners from "@/components/homepage/Partners";
+import Testimonials from "@/components/homepage/Testimonials";
 
 
 export default function Home() {
@@ -15,9 +16,7 @@ export default function Home() {
       <Explore/>
       <Features/>
       <CreatorCTA/>
-      <div className="flex-1">
-        {/* Additional content can go here */}
-      </div>
+      <Testimonials/>
     </div>
   );
 }
