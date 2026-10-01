@@ -61,14 +61,14 @@ export default function Hero() {
         alt=""
         width={250}
         height={150}
-        className="absolute bottom-0 left-100 z-10 hidden md:block"
+        className="absolute bottom-0 left-50 z-10 hidden md:block"
       />
       <Image
         src="/hero/shape-white-squiggle-right.png"
         alt=""
         width={250}
         height={140}
-        className="absolute right-90 bottom-0 z-10 hidden md:block"
+        className="absolute right-80 bottom-0 z-10 hidden md:block"
       />
       </div>
 
@@ -78,7 +78,8 @@ export default function Hero() {
       {/* Main content */}
       <div className="relative mx-auto flex max-w-7xl flex-col items-center px-4 pt-20 text-center">
         {/* Heading */}
-        <h1 className="max-w-4xl text-4xl font-bold md:text-7xl weight-200">
+        <h1 className="max-w-4xl text-4xl
+         font-bold md:text-7xl weight-200">
           Get Access to Hundreds
           <br />
           Courses Available

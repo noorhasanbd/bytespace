@@ -12,6 +12,8 @@ export type Course = {
   level: string;
   price: number;
   students: number;
+  subtitle?: string;
+  video?: string; 
 };
 
 export type CoursesData = {
